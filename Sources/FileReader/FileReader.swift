@@ -9,4 +9,8 @@ public struct FileReader {
         return try? String(contentsOf: fileURL, encoding: .utf8)
         
     }
+    
+    public init() {
+        
+    }
 }
