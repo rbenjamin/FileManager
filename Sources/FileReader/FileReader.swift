@@ -1,6 +1,6 @@
 import Foundation
 
-struct FileReader {
+public struct FileReader {
     
     public static func read(fileName: String) -> String? {
         let fileManager = FileManager.default
